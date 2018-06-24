@@ -7,7 +7,7 @@
 ## How to use it ?
 
 ### Setup projects
-Put your builded Convertigo <project>.car in the `projects` folder. They will be deployed along Convertigo MBaaS as an Heroku web process. You can deploy one convertigo project by Heroko process or share an Heroku process for several Convertigo projects.
+Put your builded Convertigo <project>.car in the `projects` folder. They will be deployed along Convertigo MBaaS as an Heroku web process. You can deploy one convertigo project by Heroku process or share an Heroku process for several Convertigo projects.
 
 This can be integrated in a CI to deploy production Convertigo MBaaS on Heroku
 
@@ -20,11 +20,11 @@ This can be integrated in a CI to deploy production Convertigo MBaaS on Heroku
 ### Setting configuration
 Tweak extra configuration in the `heroku-entrypoint.sh`. You can configure here the
 
-- couchdb_url		: a valid CouchDB 1.6.1 server for FullSync repository (Optional) 
+- couchdb_url		: a valid CouchDB server for FullSync repository (Optional) 
 - couchdb_username	: The CouchDB server username 
 - couchdb_password	: The CouchDB server password
 
-These settings are mandfatory only if you want to use Convertigo OffLine data FullSync technology  
+These settings are mandatory only if you want to use Convertigo OffLine data FullSync technology capabilities
 
 ### Login
 
